@@ -1,5 +1,6 @@
 const logger = (req, res, next) => {
 
+    
     const method = req.method;
     const path = req.path;
     const queryParams = req.query;
